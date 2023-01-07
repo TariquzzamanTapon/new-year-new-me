@@ -9,8 +9,8 @@
     font-weight: 600;
     font-size: 20px;
     padding: 21px 25px;
-    color: #005FAC;
-    background: white;
+    color: white;
+    background: #F15B22;
     border-radius: 5px;
     border: none;
 }
@@ -18,7 +18,7 @@
 .section-heading {
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     color: #151414;
 }
 
@@ -26,28 +26,55 @@ a {
     text-decoration: none;
     margin-right: 10px;
 }
+ul{
+    list-style: none;
+}
 
 /* header section */
 header {
-    background: url('../images/banner/banner3.png');
+    background: url('../images/banner/banner1.png');
     width: 100%;
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom:10px;
+}
+
+nav{
+    padding-top:25px;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+nav span{
+    color:#F15B22;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+nav ul li{
+    padding:10px 15px;
+    font-size:20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav ul .first-li{
+    color:#F15B22;
 }
 
 .header-title {
     width: 80%;
     margin: 0px auto;
-    text-align: right;
-    padding-top: 110px;
+    padding-top: 100px;
 }
 
 .header-title h1 {
 
     font-weight: 700;
     font-size: 65px;
-    color: #FFFFFF;
+    color: #151414;
     text-align: right;
     margin-bottom: 24px;
 }
@@ -55,8 +82,9 @@ header {
 .header-title p {
     font-weight: 400;
     font-size: 16px;
-    color: white;
+    color: #444343;
     margin-bottom: 24px;
+    text-align: right;
 }
 
 .header-title .btn {
@@ -87,18 +115,15 @@ header {
     color: #444343;
 }
 
+
 .faliur-item .faliur-title img {
     height: 24px;
     width: 24px;
 }
 
-.faliur-item .faliur-title .icons p {
-    font-weight: 400;
-    font-size: 16px;
-    color: #444343;
-    margin: 8px;
+.faliur .faliur-title .icon-box p{
+    margin-bottom:8px;
 }
-
 /* plan section */
 .plan {
     width: 80%;
@@ -113,6 +138,7 @@ header {
 
 .plan .card h2 {
     font-size: 30px;
+    margin-bottom:16px;
 }
 
 .plan p {
@@ -132,16 +158,19 @@ header {
 
 .plan .card .card-item {
     margin-right: 10px;
-    padding: 5px;
+    padding: 10px;
+    border-radius:5px;
+    /* background:red; */
+    box-shadow: rgba(0, 0, 0, 0.10) 0px 25px 20px -20px;
 }
 
 .plan .card .card-item img {
-    margin-bottom: 10px;
+    margin-bottom: 27px;
 }
 
 /* banner section */
 .banner-section {
-    background: linear-gradient(90deg, #005eac 0%, rgba(0, 95, 172, 0) 100%),
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
         url('../images/watch.png');
     height: 300px;
     background-repeat: no-repeat;
@@ -154,13 +183,18 @@ header {
     padding: 90px 50px;
 }
 
+
 .banner-section h2 {
     text-align: left;
     color: white;
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 
+}
+.banner-section button {
+    background:white;
+    color:#F15B22;
 }
 
 /* footer section */
